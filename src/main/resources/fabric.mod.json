@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "looted",
+	"version": "${version}",
+	"name": "Looted",
+	"description": "A mod which allows data pack/mod pack creators to adjust and have their own loot bags!",
+	"authors": [
+		"Anol",
+		"Hoshi"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/looted/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.anoltongi.looted.Looted"
+		],
+		"fabric-datagen": [
+			"net.anoltongi.looted.LootedDataGenerator"
+		],
+		"client": [
+			"net.anoltongi.looted.LootedClient"
+		]
+	},
+	"mixins": [
+		"looted.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

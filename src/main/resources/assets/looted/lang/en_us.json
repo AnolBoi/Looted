@@ -1,0 +1,10 @@
+{
+  "item.looted.loot_bag_common": "Common Loot Bag",
+  "item.looted.loot_bag_uncommon": "Uncommon Loot Bag",
+  "item.looted.loot_bag_rare": "Rare Loot Bag",
+  "item.looted.loot_bag_epic": "Epic Loot Bag",
+
+  "itemgroup.loot_bag_group": "Loot Bags",
+
+  "tooltip.looted.loot_bag.tooltip": "§7Right click to receive a random reward!"
+}
