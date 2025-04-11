@@ -3,16 +3,16 @@
 	"id": "looted",
 	"version": "${version}",
 	"name": "Looted",
-	"description": "A mod which allows data pack/mod pack creators to adjust and have their own loot bags!",
+	"description": "A mod which allows data pack/mod pack creators to adjust and have their own loot bags! Developed by Anol, Textures by Hoshi.",
 	"authors": [
 		"Anol",
 		"Hoshi"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/AnolBoi/Looted"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/looted/icon.png",
 	"environment": "*",
 	"entrypoints": {

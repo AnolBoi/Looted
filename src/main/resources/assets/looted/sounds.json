@@ -1,0 +1,8 @@
+{
+  "lootbag_opened": {
+    "subtitle": "sounds.looted.lootbag_opened",
+    "sounds": [
+      "looted:lootbag_opened"
+    ]
+  }
+}

@@ -2,6 +2,7 @@ package net.anoltongi.looted;
 
 import net.anoltongi.looted.item.ModItemGroup;
 import net.anoltongi.looted.item.ModItems;
+import net.anoltongi.looted.sound.ModSounds;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -15,5 +16,6 @@ public class Looted implements ModInitializer {
 	public void onInitialize() {
 		ModItems.registerModItems();
 		ModItemGroup.registerItemGroups();
+		ModSounds.registerSounds();
 	}
 }

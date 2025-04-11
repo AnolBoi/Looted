@@ -1,5 +1,6 @@
 package net.anoltongi.looted.item.custom;
 
+import net.anoltongi.looted.sound.ModSounds;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
@@ -11,10 +12,12 @@ import net.minecraft.loot.context.LootContextParameterSet;
 import net.minecraft.loot.context.LootContextParameters;
 import net.minecraft.loot.context.LootContextTypes;
 import net.minecraft.server.world.ServerWorld;
+import net.minecraft.sound.SoundCategory;
 import net.minecraft.text.Text;
 import net.minecraft.util.Hand;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.TypedActionResult;
+import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import org.jetbrains.annotations.Nullable;
 
@@ -55,6 +58,8 @@ public class LootBagItem extends Item {
                 }
             }
             stack.decrement(1);
+            world.playSound(null, BlockPos.ofFloored(user.getPos()), ModSounds.LOOTBAG_OPENED,
+                    SoundCategory.NEUTRAL, 1f, 1f);
         }
         return TypedActionResult.success(stack, world.isClient());
     }

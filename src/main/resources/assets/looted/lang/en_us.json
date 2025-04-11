@@ -4,7 +4,9 @@
   "item.looted.loot_bag_rare": "Rare Loot Bag",
   "item.looted.loot_bag_epic": "Epic Loot Bag",
 
-  "itemgroup.loot_bag_group": "Loot Bags",
+  "itemgroup.loot_bag_group": "Looted",
 
-  "tooltip.looted.loot_bag.tooltip": "§7Right click to receive a random reward!"
+  "tooltip.looted.loot_bag.tooltip": "§7Right click to receive a random reward!",
+
+  "sounds.looted.lootbag_opened": "Loot Bag opened"
 }
